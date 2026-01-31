@@ -1,0 +1,17 @@
+# gspec for benchmark_optimized_final.spec
+
+[gcomponent CubeVisuals]
+entity = Cube
+
+[visibility]
+when = active
+else = alpha_zero
+
+[transform]
+update_when = is_awake
+type = translation
+from = position.x, position.y, position.z
+
+[color]
+type = hex_to_rgba
+from = color

@@ -1,0 +1,21 @@
+# builds
+/build
+/bin
+/out
+
+# objetos
+*.o
+*.obj
+*.so
+*.a
+
+# cache
+.cache/
+*.log
+
+# editor
+.vscode/
+.idea/
+
+# sistema
+.DS_Store
